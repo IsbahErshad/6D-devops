@@ -1,0 +1,24 @@
+aws - linux (bird page)
+
+read   r - 4
+write   w - 2
+execute   x - 1
+ 
+add total 7
+
+--- --- ---
+user group others
+
+example: (file) -rw-r--r-- (4+2+0,4+0+0,4+0+0)=644
+or (directory) drwxr-xr-x 
+
+u- owner
+g - mul user with same file permission
+o- no user, no permi
+
+$=user
+#=root (user)
+ to convert $ to # = sudo su
+2) jenkins - open source automated server, continous intgration ci&cd,
+             piplines,building ,deploy software,leading to foster life cycle
+             devloped using java 
